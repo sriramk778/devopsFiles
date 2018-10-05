@@ -91,6 +91,25 @@ to see the remote repositories
 to add the remote repository
 	 git remote add origin https://github.com/sriramk778/devopsFiles.git
 
+to create a branch
+	git branch branch_name
+to chage the branch
+	git checkout branch_name
+
+
+
+For SSH
+-------
+ssh-keygen
+
+key will be generated in the path 
+	/c/users/sriram/.ssh/id_rsa(in windows)
+	/root/.ssh/id_rsa(in ubuntu)
+
+to remove the remote branch
+	git remote remove origin
+
+
 
 
 
