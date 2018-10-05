@@ -1,0 +1,69 @@
+SCM/VCS
+  to mainatain multiple versions of the file or directory
+  
+index.html
+v1
+v2
+v3
+
+vcs tools
+----------
+svn/p4/ clearcase/git/bit keeper
+	free          paid
+      svn/git     stash/p4/clear case/bit keper
+
+Why VCS?
+	to track different versions of a file or directory
+
+who use this?
+  all programmers, developers, system admins, devops engineers etc
+
+used only with text files such as .java, .php, .c etc
+cant support video files.
+
+history:
+-------
+1972--started--sccm--track only one file
+               rcs---multiple users not allowed, multiple files are allowed, directories are not accesses    
+               cvs---all tracked but single user
+               
+2000-----------svn---multiple files and directories and multiple users
+                     its is a centralized repository
+2005-----------GIT---by linus torvalds
+
+
+Svn
+----
+--server client based
+--Internet connection is very important every time
+--server burden is increased
+--centralized version control
+--each local system is a backup, if server is at risk then the cose is lost
+---very difficult to find conflicts
+GIT
+----
+--here every client is individual
+--internet is needed when we need to push the code to the hub
+--server burden is less
+--distributed version control
+--no backup automatically
+--conflicts are there
+
+which platforms?
+	windows, linux, Solaris, and Mac
+
+How to install git?
+ search GIT SCM  download.
+
+
+
+
+
+
+
+
+
+
+
+
+     
