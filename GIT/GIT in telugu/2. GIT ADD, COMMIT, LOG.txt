@@ -1,0 +1,61 @@
+How to work with GIT?
+	mkdir <project dir>
+3 phases in the GIT
+-------------------
+	1) Workspace area
+        2) Stage/Cache area
+        3) Local_repo
+
+
+Configure your git correctly.
+-----------------------------
+1)System
+  /etc/gitconfig
+  git config system
+2)user
+  ~/.gitconfig or /home/ramu/.gitconfig
+  git config --global
+3)project
+  .git/config
+  git config
+
+
+user level configuration
+-------------------------
+
+git config --global user.name "ramu"
+git config --global user.email "sriramk778@gmail.com"
+git config --global core.editor "ramu"
+git config --global core.ui true
+git config --global core.editor vim
+
+git config --list (to see all the list)
+
+git status
+git add .
+git commit -m "Commit message" .
+git log
+git show commit_id
+git push
+
+what is sha1 number?
+It's a random number and unique 40 character hexa decimal value(0-9, a-f)
+
+
+--git will not track empty directories
+
+
+git log --oneline
+git log --since=2016-12-01
+git log --until=2016-12-01
+git log --author="ramu"
+git log --grep="index"
+
+
+to see difference between commit id's
+-------------------------------------
+git diff <commitid_1>..<commit_id2>
+
+
+
+
