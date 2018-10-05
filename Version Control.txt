@@ -27,6 +27,93 @@ apt-get install git -y
 
 
 git --version
+git status   -- which show the untracked files
+
+go to gihub.com--> sign up for the account--> verify the email address
+
+create a new repository
+	public
+	private
+	(All the companies uses private repository)
+	
+We can configure GitLab server on premis(when we want data to be secure)
+
+
+Https: 
+-----
+  https://github.com/sriramk778/devopsFiles.git
+ssh:
+-----
+  git@github.com:sriramk778/devopsFiles.git
+
+…or create a new repository on the command line
+-----------------------------------------------
+echo "# devopsFiles" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin git@github.com:sriramk778/devopsFiles.git
+
+
+echo "# devopsFiles" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/sriramk778/devopsFiles.git
+git push -u origin master
+
+
+…or push an existing repository from the command line
+-------------------------------------------------------
+git remote add origin git@github.com:sriramk778/devopsFiles.git
+git push -u origin master
+
+git remote add origin https://github.com/sriramk778/devopsFiles.git
+git push -u origin master
+
+…or import code from another repository
+----------------------------------------
+You can initialize this repository with code from a Subversion, Mercurial, or TFS project.
+
+
+to move file from untracked(workspace area) --> files to be commited(Stagging area) 
+	git add file_name
+	git add .
+	git add -A
+
+to move files from Stagging area to the local repository(now the files are ready to be pushed)
+	git commit -m "MESSAGE" path/file_name
+	git commit -m "MESSAGE" .
+
+
+to see the remote repositories
+	git remote show
+to add the remote repository
+	 git remote add origin https://github.com/sriramk778/devopsFiles.git
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

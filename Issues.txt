@@ -1,0 +1,2 @@
+In the windows system, if the system rember the Github credentials
+	then go to windows credential manager and remove from there
