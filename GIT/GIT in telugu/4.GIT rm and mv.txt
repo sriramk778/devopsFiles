@@ -1,0 +1,21 @@
+git commit -am "xyz"
+	for existing file modifications can be moved from workspace area to the statging area.
+
+git commit --amend -m "<commit_msg>" <file_name>
+	
+
+rm f2
+
+git checkout f1
+
+git rm file_name
+	to remove from worksspace area
+	git commit -m "xxxxxxxxx" .
+
+
+
+
+
+
+
+

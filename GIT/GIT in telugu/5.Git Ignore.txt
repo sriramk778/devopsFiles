@@ -1,0 +1,22 @@
+
+
+/etc/gitignore
+
+Poject levl
+-===========
+vi .gitignore
+
+*.log
+*.obj
+!index.php
+[abc].php
+
+git add and commit the ignore file.
+
+git add -f b.php
+
+hoow to remove history?
+	git reset --soft <commit_id>
+	git reset head filename
+	git reset --mixed <commit_id>
+	git reset reset --hard <commit_id> 
