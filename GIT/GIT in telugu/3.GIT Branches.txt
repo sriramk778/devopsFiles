@@ -1,0 +1,29 @@
+Branches
+--------
+git branch
+	will show all the branches
+	* will represent the current branch
+
+git branch branch_name
+
+git checkout branch_namee
+	to go to particular branch
+
+git checkout -b branch_name
+	to create and got to that branch
+
+
+git diff branch_1..branch_2
+	to see difference between branches
+
+git branch merge feature
+	go to branch master(target), then merge feature(source) with master
+
+git branch -d feature
+	We cant delete the branch in which we are in
+	-D is force deletion
+
+
+
+
+	
