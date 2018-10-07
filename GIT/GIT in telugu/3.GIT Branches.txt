@@ -6,7 +6,7 @@ git branch
 
 git branch branch_name
 
-git checkout branch_name
+git checkout branch_namee
 	to go to particular branch
 
 git checkout -b branch_name
