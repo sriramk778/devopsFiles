@@ -1,0 +1,47 @@
+What is Git Lab?
+	Online Git Repository Manager
+	with online wiki, issue tracking and CI&CD
+	Great way to manage Git Repositories
+	
+
+Git:
+--Distributed sourcecode system
+--Work co-ordinations in teams
+--Spead and data integrity
+
+GitHub, GitLab and Bitbucket
+--Provide remote access to Git repositories
+--Provide additional features to manage code
+--sharing code, bug tracking, wiki space and other tools
+
+GitHub
+--Public, free service
+--Get suggestions for improvement
+
+Bit Bucket
+--web based vesrion control
+--Free accounts
+
+GitLab
+--GitHub like service
+--self hosted Git-repository management system
+
+Why Git Lab???
+--full control over repsoitory
+--Host projects fro free
+--Platform for managing git repos
+--free public and private repos
+--User friendly web interface
+--CI managing projects
+--option to share only a part of project
+--Unlimited number of private and public repos
+
+
+GIT lab limitations
+--Not as fast as GITHub
+--
+
+
+
+
+

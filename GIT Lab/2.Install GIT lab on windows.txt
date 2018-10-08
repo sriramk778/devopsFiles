@@ -1,0 +1,23 @@
+--Create a folder GitLab_Runner
+--download gitlab runner 64bit(amd64)
+--change the name as gitlab-runner.exe
+--open cmd prompt in that path
+--gitlab-runner.exe register
+  https://gitlab.com
+  get the cli-token after registering with the GitLab
+  create a project (webApp)
+  go to settings-->CI/CD-->runners(expand)
+  (we need to setup shared/specific runner
+  runner is a isolated virtual machine which runs a job
+  runner that serves all projects is shared runner
+  group runner--when we have mutiple projects under a group)
+  copy paste the codde from specific runner
+  and give docker to run
+  give tags(devtag1, devtag2)
+  now you can see runner is setup..in CI/CD runners
+  we can see config file in the gitlab-runner.exe path
+--setup is done
+
+  
+
+
