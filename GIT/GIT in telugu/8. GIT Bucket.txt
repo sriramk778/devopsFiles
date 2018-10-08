@@ -1,0 +1,74 @@
+GIT server
+==========
+
+Its a private GIT server.
+
+sudo yum -y install java-1.8.0-open jdk
+java -version
+yum install java-1.8.0-open jdk -y
+
+java -jar gitbucket.war --port=8080
+default is 8080
+
+systemctl stop firewalld
+
+ServerSide
+===========
+login : root/root
+
+Accountsettings--> password
+Accountsettngs---> Newuser
+
+Client side
+===========
+git remote add <alias_name> <url>
+
+create a repositiory
+--private
+
+git remote -v
+
+git remote rm <alias_name>
+
+git push -u <alias_name> <branch_name>
+git push -u origin master
+
+git featch/merge
+	git fetch
+	git merge origin/master
+or
+git pull <alias_name> <branch_name>
+	git pull origin master
+
+go to extra branch...git fetch..then
+git merge origin/master (somerging origin/master to extra branch)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

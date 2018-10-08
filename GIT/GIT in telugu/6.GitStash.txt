@@ -1,0 +1,31 @@
+Git stash
+==========
+
+stash is a temporary area under git
+
+why stash
+	to store temporary files
+
+how to use?
+conditions:
+ 1)files must be in staging area
+ 2)
+
+commands:
+========
+git add .
+git status
+git stash save "<message>"
+	stash0
+	stash1
+
+git stash list
+
+git stash apply <stash#>
+git stash pop <stash#>
+git stash drop <stash#>
+git stash clear
+
+stash can be accessed from any branch
+ 
+
